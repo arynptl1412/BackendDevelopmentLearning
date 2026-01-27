@@ -7,11 +7,11 @@ app.get("/", (req, res)=>{
 })
 
 app.get("/about", (req, res)=>{
-    res.send("This is about page bhenchod")
+    res.send("This is about page ")
 })
 
 app.get("/home", (req, res)=>{
-    res.send("This is home page bhenchod")
+    res.send("This is home page")
 })
 
 app.listen(3000, ()=>{ // server start karna
