@@ -33,6 +33,26 @@
         }
       },
       "response": []
+    },
+    {
+      "name": "Fetch Notes",
+      "id": "83325be1-1a65-4d03-91a1-48ffa1aa999b",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/notes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "notes"
+          ]
+        }
+      },
+      "response": []
     }
   ]
 }
