@@ -1,0 +1,40 @@
+{
+  "info": {
+    "_postman_id": "bb31afa8-d85a-4064-9d12-4335bbdbead8",
+    "name": "Day-9",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register User",
+      "id": "f3181551-c660-43b1-8a5c-2e317f9c0b56",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Aryan Patel\",\r\n    \"email\":\"aryanpatel141204@gmail.com\",\r\n    \"password\": \"Arynptl@1412\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/auth/register",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "auth",
+            "register"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
